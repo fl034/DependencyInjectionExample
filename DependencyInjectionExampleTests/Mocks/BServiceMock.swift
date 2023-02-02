@@ -6,8 +6,8 @@ import Foundation
 // Convention: Mocks must have `Mock` as suffix.
 class BServiceMock: BServiceProtocol {
     
-    // Convention: Always Put those variables directly above the specific function.
-    // Convention: Name those variables alwasys beginning with the function name
+    // Convention: Always put those variables directly above the specific function.
+    // Convention: Name those variables always beginning with the function name
     var checkInputCalledWithInput: String?
     var checkInputReturn = false
     

@@ -1,12 +1,12 @@
 import Foundation
 
-/// Services can be struct or class. Only Mocks n
+/// Services can be struct or class. Only Mocks need to be classes.
 struct AService: AServiceProtocol {
     // Don't forget to make this private
     private let bService: BServiceProtocol
     
-    // Convention: Inject dependency in initializer, with an default parameter if possible.
-    // This default value can also be provided by a factory class in the future.
+    // Convention 1: Inject dependency in initializer, with an default parameter if possible.
+    //   This default value can also be provided by a factory class in the future.
     init(bService: BServiceProtocol = BService()) {
         self.bService = bService
     }

@@ -6,7 +6,7 @@ final class AServiceTests: XCTestCase {
     // Convention: Always name the tested class variable `sut`
     // sut <=> System Under Test
     var sut: AService!
-    // Convention: Here force unwrap is allowed.
+    // Here force unwrap is allowed.
     var bServiceMock: BServiceMock!
     
     override func setUpWithError() throws {
@@ -21,7 +21,7 @@ final class AServiceTests: XCTestCase {
         bServiceMock = nil
     }
 
-    // Convention: `func testFunctionName_input_expectedOutput()`
+    // Convention: Name functions like this `func testFunctionName_input_expectedOutput()`
     func testDoSomething_bServiceTrue_reversedInput() {
         // Given
         // With that we can check how AService behaves if BService returns true
