@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9B944837298BEF72005C924A /* DependencyInjectionTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B944836298BEF72005C924A /* DependencyInjectionTestApp.swift */; };
-		9B944839298BEF72005C924A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B944838298BEF72005C924A /* ContentView.swift */; };
-		9B94483B298BEF73005C924A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B94483A298BEF73005C924A /* Assets.xcassets */; };
-		9B94483F298BEF73005C924A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B94483E298BEF73005C924A /* Preview Assets.xcassets */; };
-		9B944849298BEF73005C924A /* DependencyInjectionTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B944848298BEF73005C924A /* DependencyInjectionTestTests.swift */; };
-		9B944853298BEF73005C924A /* DependencyInjectionTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B944852298BEF73005C924A /* DependencyInjectionTestUITests.swift */; };
-		9B944855298BEF73005C924A /* DependencyInjectionTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B944854298BEF73005C924A /* DependencyInjectionTestUITestsLaunchTests.swift */; };
+		9B944837298BEF72005C924A /* DependencyInjectionExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B944836298BEF72005C924A /* DependencyInjectionExampleApp.swift */; };
+		9B944849298BEF73005C924A /* AServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B944848298BEF73005C924A /* AServiceTests.swift */; };
+		9B944863298BF032005C924A /* AService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B944862298BF032005C924A /* AService.swift */; };
+		9B944865298BF056005C924A /* AServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B944864298BF056005C924A /* AServiceProtocol.swift */; };
+		9B944868298BF068005C924A /* BServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B944867298BF068005C924A /* BServiceMock.swift */; };
+		9B94486A298BF0E6005C924A /* BService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B944869298BF0E6005C924A /* BService.swift */; };
+		9B94486C298BF0EC005C924A /* BServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B94486B298BF0EC005C924A /* BServiceProtocol.swift */; };
+		9BDFC382298BF84C001B2817 /* BServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDFC381298BF84C001B2817 /* BServiceTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -22,29 +23,22 @@
 			containerPortal = 9B94482B298BEF72005C924A /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 9B944832298BEF72005C924A;
-			remoteInfo = DependencyInjectionTest;
-		};
-		9B94484F298BEF73005C924A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9B94482B298BEF72005C924A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9B944832298BEF72005C924A;
-			remoteInfo = DependencyInjectionTest;
+			remoteInfo = DependencyInjectionExample;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9B944833298BEF72005C924A /* DependencyInjectionTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DependencyInjectionTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9B944836298BEF72005C924A /* DependencyInjectionTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyInjectionTestApp.swift; sourceTree = "<group>"; };
-		9B944838298BEF72005C924A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		9B94483A298BEF73005C924A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9B94483C298BEF73005C924A /* DependencyInjectionTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DependencyInjectionTest.entitlements; sourceTree = "<group>"; };
-		9B94483E298BEF73005C924A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		9B944844298BEF73005C924A /* DependencyInjectionTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DependencyInjectionTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9B944848298BEF73005C924A /* DependencyInjectionTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyInjectionTestTests.swift; sourceTree = "<group>"; };
-		9B94484E298BEF73005C924A /* DependencyInjectionTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DependencyInjectionTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9B944852298BEF73005C924A /* DependencyInjectionTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyInjectionTestUITests.swift; sourceTree = "<group>"; };
-		9B944854298BEF73005C924A /* DependencyInjectionTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyInjectionTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9B944833298BEF72005C924A /* DependencyInjectionExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DependencyInjectionExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B944836298BEF72005C924A /* DependencyInjectionExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyInjectionExampleApp.swift; sourceTree = "<group>"; };
+		9B94483C298BEF73005C924A /* DependencyInjectionExample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DependencyInjectionExample.entitlements; sourceTree = "<group>"; };
+		9B944844298BEF73005C924A /* DependencyInjectionExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DependencyInjectionExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B944848298BEF73005C924A /* AServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AServiceTests.swift; sourceTree = "<group>"; };
+		9B944862298BF032005C924A /* AService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AService.swift; sourceTree = "<group>"; };
+		9B944864298BF056005C924A /* AServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AServiceProtocol.swift; sourceTree = "<group>"; };
+		9B944867298BF068005C924A /* BServiceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BServiceMock.swift; sourceTree = "<group>"; };
+		9B944869298BF0E6005C924A /* BService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BService.swift; sourceTree = "<group>"; };
+		9B94486B298BF0EC005C924A /* BServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BServiceProtocol.swift; sourceTree = "<group>"; };
+		9BDFC381298BF84C001B2817 /* BServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BServiceTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,22 +56,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9B94484B298BEF73005C924A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		9B94482A298BEF72005C924A = {
 			isa = PBXGroup;
 			children = (
-				9B944835298BEF72005C924A /* DependencyInjectionTest */,
-				9B944847298BEF73005C924A /* DependencyInjectionTestTests */,
-				9B944851298BEF73005C924A /* DependencyInjectionTestUITests */,
+				9B944835298BEF72005C924A /* DependencyInjectionExample */,
+				9B944847298BEF73005C924A /* DependencyInjectionExampleTests */,
 				9B944834298BEF72005C924A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,56 +71,57 @@
 		9B944834298BEF72005C924A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9B944833298BEF72005C924A /* DependencyInjectionTest.app */,
-				9B944844298BEF73005C924A /* DependencyInjectionTestTests.xctest */,
-				9B94484E298BEF73005C924A /* DependencyInjectionTestUITests.xctest */,
+				9B944833298BEF72005C924A /* DependencyInjectionExample.app */,
+				9B944844298BEF73005C924A /* DependencyInjectionExampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9B944835298BEF72005C924A /* DependencyInjectionTest */ = {
+		9B944835298BEF72005C924A /* DependencyInjectionExample */ = {
 			isa = PBXGroup;
 			children = (
-				9B944836298BEF72005C924A /* DependencyInjectionTestApp.swift */,
-				9B944838298BEF72005C924A /* ContentView.swift */,
-				9B94483A298BEF73005C924A /* Assets.xcassets */,
-				9B94483C298BEF73005C924A /* DependencyInjectionTest.entitlements */,
-				9B94483D298BEF73005C924A /* Preview Content */,
+				9B944861298BF020005C924A /* Services */,
+				9B944836298BEF72005C924A /* DependencyInjectionExampleApp.swift */,
+				9B94483C298BEF73005C924A /* DependencyInjectionExample.entitlements */,
 			);
-			path = DependencyInjectionTest;
+			path = DependencyInjectionExample;
 			sourceTree = "<group>";
 		};
-		9B94483D298BEF73005C924A /* Preview Content */ = {
+		9B944847298BEF73005C924A /* DependencyInjectionExampleTests */ = {
 			isa = PBXGroup;
 			children = (
-				9B94483E298BEF73005C924A /* Preview Assets.xcassets */,
+				9B944866298BF05E005C924A /* Mocks */,
+				9B944848298BEF73005C924A /* AServiceTests.swift */,
+				9BDFC381298BF84C001B2817 /* BServiceTests.swift */,
 			);
-			path = "Preview Content";
+			path = DependencyInjectionExampleTests;
 			sourceTree = "<group>";
 		};
-		9B944847298BEF73005C924A /* DependencyInjectionTestTests */ = {
+		9B944861298BF020005C924A /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				9B944848298BEF73005C924A /* DependencyInjectionTestTests.swift */,
+				9B944862298BF032005C924A /* AService.swift */,
+				9B944864298BF056005C924A /* AServiceProtocol.swift */,
+				9B944869298BF0E6005C924A /* BService.swift */,
+				9B94486B298BF0EC005C924A /* BServiceProtocol.swift */,
 			);
-			path = DependencyInjectionTestTests;
+			path = Services;
 			sourceTree = "<group>";
 		};
-		9B944851298BEF73005C924A /* DependencyInjectionTestUITests */ = {
+		9B944866298BF05E005C924A /* Mocks */ = {
 			isa = PBXGroup;
 			children = (
-				9B944852298BEF73005C924A /* DependencyInjectionTestUITests.swift */,
-				9B944854298BEF73005C924A /* DependencyInjectionTestUITestsLaunchTests.swift */,
+				9B944867298BF068005C924A /* BServiceMock.swift */,
 			);
-			path = DependencyInjectionTestUITests;
+			path = Mocks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9B944832298BEF72005C924A /* DependencyInjectionTest */ = {
+		9B944832298BEF72005C924A /* DependencyInjectionExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9B944858298BEF73005C924A /* Build configuration list for PBXNativeTarget "DependencyInjectionTest" */;
+			buildConfigurationList = 9B944858298BEF73005C924A /* Build configuration list for PBXNativeTarget "DependencyInjectionExample" */;
 			buildPhases = (
 				9B94482F298BEF72005C924A /* Sources */,
 				9B944830298BEF72005C924A /* Frameworks */,
@@ -144,14 +131,14 @@
 			);
 			dependencies = (
 			);
-			name = DependencyInjectionTest;
-			productName = DependencyInjectionTest;
-			productReference = 9B944833298BEF72005C924A /* DependencyInjectionTest.app */;
+			name = DependencyInjectionExample;
+			productName = DependencyInjectionExample;
+			productReference = 9B944833298BEF72005C924A /* DependencyInjectionExample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9B944843298BEF73005C924A /* DependencyInjectionTestTests */ = {
+		9B944843298BEF73005C924A /* DependencyInjectionExampleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9B94485B298BEF73005C924A /* Build configuration list for PBXNativeTarget "DependencyInjectionTestTests" */;
+			buildConfigurationList = 9B94485B298BEF73005C924A /* Build configuration list for PBXNativeTarget "DependencyInjectionExampleTests" */;
 			buildPhases = (
 				9B944840298BEF73005C924A /* Sources */,
 				9B944841298BEF73005C924A /* Frameworks */,
@@ -162,28 +149,10 @@
 			dependencies = (
 				9B944846298BEF73005C924A /* PBXTargetDependency */,
 			);
-			name = DependencyInjectionTestTests;
-			productName = DependencyInjectionTestTests;
-			productReference = 9B944844298BEF73005C924A /* DependencyInjectionTestTests.xctest */;
+			name = DependencyInjectionExampleTests;
+			productName = DependencyInjectionExampleTests;
+			productReference = 9B944844298BEF73005C924A /* DependencyInjectionExampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		9B94484D298BEF73005C924A /* DependencyInjectionTestUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9B94485E298BEF73005C924A /* Build configuration list for PBXNativeTarget "DependencyInjectionTestUITests" */;
-			buildPhases = (
-				9B94484A298BEF73005C924A /* Sources */,
-				9B94484B298BEF73005C924A /* Frameworks */,
-				9B94484C298BEF73005C924A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9B944850298BEF73005C924A /* PBXTargetDependency */,
-			);
-			name = DependencyInjectionTestUITests;
-			productName = DependencyInjectionTestUITests;
-			productReference = 9B94484E298BEF73005C924A /* DependencyInjectionTestUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -202,13 +171,9 @@
 						CreatedOnToolsVersion = 14.2;
 						TestTargetID = 9B944832298BEF72005C924A;
 					};
-					9B94484D298BEF73005C924A = {
-						CreatedOnToolsVersion = 14.2;
-						TestTargetID = 9B944832298BEF72005C924A;
-					};
 				};
 			};
-			buildConfigurationList = 9B94482E298BEF72005C924A /* Build configuration list for PBXProject "DependencyInjectionTest" */;
+			buildConfigurationList = 9B94482E298BEF72005C924A /* Build configuration list for PBXProject "DependencyInjectionExample" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -221,9 +186,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9B944832298BEF72005C924A /* DependencyInjectionTest */,
-				9B944843298BEF73005C924A /* DependencyInjectionTestTests */,
-				9B94484D298BEF73005C924A /* DependencyInjectionTestUITests */,
+				9B944832298BEF72005C924A /* DependencyInjectionExample */,
+				9B944843298BEF73005C924A /* DependencyInjectionExampleTests */,
 			);
 		};
 /* End PBXProject section */
@@ -233,19 +197,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B94483F298BEF73005C924A /* Preview Assets.xcassets in Resources */,
-				9B94483B298BEF73005C924A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		9B944842298BEF73005C924A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9B94484C298BEF73005C924A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -259,8 +214,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B944839298BEF72005C924A /* ContentView.swift in Sources */,
-				9B944837298BEF72005C924A /* DependencyInjectionTestApp.swift in Sources */,
+				9B94486A298BF0E6005C924A /* BService.swift in Sources */,
+				9B944865298BF056005C924A /* AServiceProtocol.swift in Sources */,
+				9B944837298BEF72005C924A /* DependencyInjectionExampleApp.swift in Sources */,
+				9B94486C298BF0EC005C924A /* BServiceProtocol.swift in Sources */,
+				9B944863298BF032005C924A /* AService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,16 +226,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B944849298BEF73005C924A /* DependencyInjectionTestTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9B94484A298BEF73005C924A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9B944853298BEF73005C924A /* DependencyInjectionTestUITests.swift in Sources */,
-				9B944855298BEF73005C924A /* DependencyInjectionTestUITestsLaunchTests.swift in Sources */,
+				9B944849298BEF73005C924A /* AServiceTests.swift in Sources */,
+				9BDFC382298BF84C001B2817 /* BServiceTests.swift in Sources */,
+				9B944868298BF068005C924A /* BServiceMock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,13 +237,8 @@
 /* Begin PBXTargetDependency section */
 		9B944846298BEF73005C924A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9B944832298BEF72005C924A /* DependencyInjectionTest */;
+			target = 9B944832298BEF72005C924A /* DependencyInjectionExample */;
 			targetProxy = 9B944845298BEF73005C924A /* PBXContainerItemProxy */;
-		};
-		9B944850298BEF73005C924A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9B944832298BEF72005C924A /* DependencyInjectionTest */;
-			targetProxy = 9B94484F298BEF73005C924A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -409,12 +355,10 @@
 		9B944859298BEF73005C924A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = DependencyInjectionTest/DependencyInjectionTest.entitlements;
+				CODE_SIGN_ENTITLEMENTS = DependencyInjectionExample/DependencyInjectionExample.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"DependencyInjectionTest/Preview Content\"";
 				DEVELOPMENT_TEAM = 7768Y3HUZ6;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -434,10 +378,12 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = de.heyfrank.DependencyInjectionTest;
+				PRODUCT_BUNDLE_IDENTIFIER = de.heyfrank.DependencyInjectionExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -447,12 +393,10 @@
 		9B94485A298BEF73005C924A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = DependencyInjectionTest/DependencyInjectionTest.entitlements;
+				CODE_SIGN_ENTITLEMENTS = DependencyInjectionExample/DependencyInjectionExample.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"DependencyInjectionTest/Preview Content\"";
 				DEVELOPMENT_TEAM = 7768Y3HUZ6;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -472,10 +416,12 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = de.heyfrank.DependencyInjectionTest;
+				PRODUCT_BUNDLE_IDENTIFIER = de.heyfrank.DependencyInjectionExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -494,14 +440,14 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = de.heyfrank.DependencyInjectionTestTests;
+				PRODUCT_BUNDLE_IDENTIFIER = de.heyfrank.DependencyInjectionExampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DependencyInjectionTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DependencyInjectionTest";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DependencyInjectionExample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DependencyInjectionExample";
 			};
 			name = Debug;
 		};
@@ -517,65 +463,21 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = de.heyfrank.DependencyInjectionTestTests;
+				PRODUCT_BUNDLE_IDENTIFIER = de.heyfrank.DependencyInjectionExampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DependencyInjectionTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DependencyInjectionTest";
-			};
-			name = Release;
-		};
-		9B94485F298BEF73005C924A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7768Y3HUZ6;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
-				MACOSX_DEPLOYMENT_TARGET = 13.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = de.heyfrank.DependencyInjectionTestUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = DependencyInjectionTest;
-			};
-			name = Debug;
-		};
-		9B944860298BEF73005C924A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7768Y3HUZ6;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
-				MACOSX_DEPLOYMENT_TARGET = 13.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = de.heyfrank.DependencyInjectionTestUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = DependencyInjectionTest;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DependencyInjectionExample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DependencyInjectionExample";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9B94482E298BEF72005C924A /* Build configuration list for PBXProject "DependencyInjectionTest" */ = {
+		9B94482E298BEF72005C924A /* Build configuration list for PBXProject "DependencyInjectionExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9B944856298BEF73005C924A /* Debug */,
@@ -584,7 +486,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9B944858298BEF73005C924A /* Build configuration list for PBXNativeTarget "DependencyInjectionTest" */ = {
+		9B944858298BEF73005C924A /* Build configuration list for PBXNativeTarget "DependencyInjectionExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9B944859298BEF73005C924A /* Debug */,
@@ -593,20 +495,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9B94485B298BEF73005C924A /* Build configuration list for PBXNativeTarget "DependencyInjectionTestTests" */ = {
+		9B94485B298BEF73005C924A /* Build configuration list for PBXNativeTarget "DependencyInjectionExampleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9B94485C298BEF73005C924A /* Debug */,
 				9B94485D298BEF73005C924A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9B94485E298BEF73005C924A /* Build configuration list for PBXNativeTarget "DependencyInjectionTestUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9B94485F298BEF73005C924A /* Debug */,
-				9B944860298BEF73005C924A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
